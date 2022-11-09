@@ -1,0 +1,34 @@
+#img-roller>img{
+    width: 100%;
+    height: auto;
+    margin-top: 60px;
+    }
+    .card-9{
+        display: flex;
+        width:auto;
+    }
+    .card-9>img{
+        width: 11.11%;  
+    }
+    h2{
+        padding-top: 50px;
+        padding-bottom: 30px;
+        padding-left: 40px;
+        font-size: 40px;
+    }
+.img-grid-8{
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: repeat(2,1fr);
+} 
+.img-grid-8>img{
+   width: 97%;
+   height: auto;
+}   
+.card-7{
+   display: flex;
+   height: auto;
+}  
+.card-7>img{
+  width: 14.28%;
+} 
