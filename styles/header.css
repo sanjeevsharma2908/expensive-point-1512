@@ -60,5 +60,11 @@ sup{
     height: 20px;
     padding-top: 25px;
 }
+span{
+    border: 1px solid black;
+    position: relative;
+    left: -17px;
+    top: 10px;
+}
 
 
