@@ -25,10 +25,39 @@
    width: 97%;
    height: auto;
 }   
+.img-grid-8_1{
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+ } 
+ .img-grid-8_1>img{
+    width: 100%;
+ }
 .card-7{
    display: flex;
    height: auto;
 }  
 .card-7>img{
   width: 14.28%;
+}
+.img-grid-7{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
 } 
+.img-grid-7>img{
+    width: 100%;
+ 
+}
+.img-grid-6{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+}
+.img-grid-6>img{
+    width: 100%;
+}
+.img-grid-4{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+ }  
+ .img-grid-4>img{
+   width: 100%;
+ }
