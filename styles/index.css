@@ -1,8 +1,7 @@
-#img-roller>img{
-    width: 100%;
-    height: auto;
-    margin-top: 60px;
-    }
+ #carousel>img{
+    margin-top:90px ;
+    width:100% ;
+ }
     .card-9{
         display: flex;
         width:auto;

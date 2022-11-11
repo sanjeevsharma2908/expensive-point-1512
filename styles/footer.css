@@ -1,11 +1,11 @@
 .flex{
     display: flex;
-    margin-left: 80px;
+    margin-left: 40px;
     margin-top: 40px;
     padding-top: 30px;
 }
 .flex-child{
-    padding-right: 15px;
+    padding-right: 20px;
 }
 .flex-child-img{
     padding-left: 37px;
@@ -16,11 +16,11 @@ h4{
 li{
     list-style: none;
     color: #696b79;
-    font-size: 20px;
+    font-size: 15px;
 }
 #google-play-button>img{
 
-    height: 61px;
+    height: 60px;
 }
 .social-media{
     padding-left: 40px;
@@ -28,7 +28,104 @@ li{
 .social-media>img{
     width:30px;
     height:30px;
+    padding: 7px;
+}
+.flex-end{
+    display:flex;
+    margin-left: 30px;
+    margin-bottom: 10px;
 }
 
-div{ border: 1px solid green;
+.flex-end>img{
+    height: 60px;
+    padding-top: 18px;
+    padding-right: 5px;
 }
+.flex-end+h3 span{
+    padding-left: 20px;
+    top: -1px;
+}
+.char{
+    width: 250px;
+    color: #696b79;
+}
+strong{
+    color: black;
+}
+#symbol-30{
+    padding-left: 10px;
+}
+hr{
+    width: 85%;
+    height: 1px;
+    color: #EAEAEC;
+}
+#pop-search{
+    margin-left: 40px;
+}
+#popular-searches{
+    margin-left: 80px;
+    padding-top: 25px;
+    padding-right: 30px;
+}
+#popular-searches>a{
+    color: #696b79;
+    font-size: 16px;
+    padding-left: 15px;
+    text-decoration: none;
+}
+.contact{
+    margin-top: 0px;
+}
+#con-us{
+    margin-left: 22px;
+    padding-right: 750px;
+    color: #696b79;
+    margin-top: 0px;
+    padding-top:0px;
+}
+#con-us>p>strong{
+    color: #2c368f;
+    font-weight: bold;
+    font-size: 17px;
+}
+#all-right{
+    color: #696b79;
+    
+}
+.hr-90{
+    width: 89%;
+}
+#office-address{
+    width: 70%;
+}
+#office-address>h3{
+    margin-left: 40px;
+}
+#office-address>p{
+  line-height: 8px;
+  color: #696b79;
+  margin-left: 27px;
+}
+#office-contact{
+    color: #696b79;
+    padding-left: 30px;
+}
+#office-contact>p>strong{
+   color: #2c368f;
+   font-size: 20px;
+}
+.margin-left-80px{
+    margin-left: 80px;
+    padding-top: 10px;
+}
+.margin-left-80px+p{
+    margin-left: 70px;
+    color: #696b79;
+    margin-right: 20px;
+}
+
+
+div{
+    border: 1px solid red;
+} 
