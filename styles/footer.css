@@ -5,7 +5,7 @@
     padding-top: 30px;
 }
 .flex-child{
-    padding-right: 15px;
+    padding-right: 20px;
 }
 .flex-child-img{
     padding-left: 37px;
@@ -16,11 +16,11 @@ h4{
 li{
     list-style: none;
     color: #696b79;
-    font-size: 20px;
+    font-size: 15px;
 }
 #google-play-button>img{
 
-    height: 61px;
+    height: 60px;
 }
 .social-media{
     padding-left: 40px;
@@ -28,7 +28,39 @@ li{
 .social-media>img{
     width:30px;
     height:30px;
+    padding: 7px;
+}
+.flex-end{
+    display:flex;
+    margin-left: 30px;
+    margin-bottom: 10px;
 }
 
-div{ border: 1px solid green;
+.flex-end>img{
+    height: 60px;
+    padding-top: 18px;
+    padding-right: 5px;
 }
+.flex-end+h3 span{
+    padding-left: 20px;
+    top: -1px;
+}
+.char{
+    width: 250px;
+    color: #696b79;
+}
+strong{
+    color: black;
+}
+#symbol-30{
+    padding-left: 10px;
+}
+hr{
+    width: 88%;
+    height: 1px;
+    color: #EAEAEC;
+}
+
+//div{
+    border: 1px solid red;
+} 
