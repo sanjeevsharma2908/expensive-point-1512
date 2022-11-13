@@ -129,8 +129,14 @@ ol{
     margin-left: 100px;
 }
 #keep-up{
+color: #696b79;
+font-weight: 100;
 
 }
+#keep-up+li,p{
+margin-left: -17px;
+    
+    }
 ol>li{
  
     padding-top: 15px;
@@ -148,11 +154,3 @@ ul>li{
 padding-left: 80px;
 list-style: inside;
 }
-#keep-up+li,p{
-    border :1px solid red;
-
-}
-
-//div{
-    border: 1px solid red;
-} 
